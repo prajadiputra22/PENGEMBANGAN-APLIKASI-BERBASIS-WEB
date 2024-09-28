@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas-2-Darmawan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f0f2f5;
+        }
+        header {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+        }
+        header .logo {
+            position: absolute;
+            left: 50px;
+        }
+        header .logo span {
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+        }
+
+        header nav {
+            flex: 1;
+            text-align: center;
+        }
+        header nav a {
+            margin: 0 20px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        header nav a:hover {
+            color: #1da1f2;
+        }
+        header .search-bar {
+            position: absolute;
+            right: 50px;
+        }
+        header .search-bar input {
+            padding: 8px;
+            width: 200px;
+            border-radius: 20px;
+            border: 1px solid #ccc;
+        }
+        main {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        article {
+            flex: 2;
+            background-color: #ffffff;
+            padding: 20px;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+        section {
+            background-color: #f5f8fa;
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #e1e8ed;
+        }
+        section h2 {
+            font-size: 18px;
+            color: black;
+        }
+        section p {
+            font-size: 16px;
+            color: #14171A;
+        }
+        aside {
+            flex: 1;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        aside h2 {
+            font-size: 18px;
+            color: #14171A;
+            margin-bottom: 10px;
+        }
+        aside p {
+            background-color: #f5f8fa;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #e1e8ed;
+            margin-bottom: 10px;
+            color: #657786;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <span>X.com</span>
+        </div>
+
+        <!-- Navigasi-->
+        <nav>
+            <a href="#">For You</a>
+            <a href="#">Following</a>
+            <a href="#">Community</a>
+        </nav>
+
+        <!-- Search.bar -->
+        <div class="search-bar">
+            <input type="text" placeholder="Search X.com">
+        </div>
+    </header>
+
+    <main>
+        <!-- Main Content  -->
+        <article>
+            <section>
+                <h2>@elon_musk</h2>
+                <p>GW berhasil mendaratkan roket space X di Matahari guys #SpaceExploration</p>
+            </section>
+            <section>
+                <h2>@darmawan_sp</h2>
+                <p>Saya yang buat halaman web ini #kerjarodi</p>
+            </section>
+            <section>
+                <h2>@manchester_utd</h2>
+                <p>Kapan tim GW juara lagi oyyyyy #TsunamiTrofi</p>
+            </section>
+            <section>
+                <h2>@x_borg</h2>
+                <p>Uhuyyy akan ku bakar kalian semua dengan apiku. #Menyala_abangku</p>
+            </section>
+        </article>
+
+        <!-- Sidebar/Trending Topics -->
+        <aside>
+            <h2>Trending</h2>
+            <p>#TsunamiTrofi</p>
+            <p>#kerjarodi</p>
+            <p>#SpaceExploration</p>
+            <p>#SipalingCrypto</p>
+            <p>#Gamers_ganteng</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 X.com (Darmawan)</p>
+    </footer>
+
+</body>
+</html>
